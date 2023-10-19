@@ -9,7 +9,7 @@ See the example `config.toml` and `docker-compose.yaml` below for the hetzner sp
 ## To publish a new version
 
 1. Open `Dockerfile`, adjust the base version number.
-2. Open `.github/workflows/docker-build.yml` and look for the previous version number occurences and replace by the new one. Sorry that this sucks at the moment.
+2. Open `.github/workflows/docker-build.yml` and look for the previous version number occurences and replace by the new one.
 3. Push on `master`, let Actions publish the image on Dockerhub.
 
 ## Usage
