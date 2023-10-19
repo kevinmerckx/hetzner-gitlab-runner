@@ -6,6 +6,11 @@ You can follow the official [GitLab docs](https://docs.gitlab.com/runner/executo
 
 See the example `config.toml` and `docker-compose.yaml` below for the hetzner specific docker machine options.
 
+## To publish a new version
+
+1. Open `Dockerfile`, adjust the base version number.
+2. Open `.github/`
+
 ## Usage
 
 Use [this image](https://hub.docker.com/r/mawalu/hetzner-gitlab-runner) instead of the `gitlab/gitlab-runner` image and set `MachineDriver` to `hetzner` in your runner configuration.
